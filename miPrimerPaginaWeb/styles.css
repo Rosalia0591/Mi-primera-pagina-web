@@ -1,0 +1,111 @@
+html {
+  background-color: rgb(220, 217, 217);
+}
+
+body {
+  width: 1000px;
+  /*margin (margen), el espacio fuera del elemento que lo separa de los demás.*/
+  margin: 0 auto;
+  background-color: #ebecf1;
+  /*padding : (relleno), el espacio alrededor del contenido. En el ejemplo siguiente, es el espacio alrededor del texto del párrafo.*/
+  padding: 5px 20px 20px 20px;
+  /*border (marco), la línea que se encuentra fuera del relleno.*/
+  border: 3px solid black;
+}
+
+imgAp {
+  display: flex;
+  display: block;
+  /* Asegura que la imagen sea un bloque */
+  margin: 0 auto;
+  /* Centra la imagen horizontalmente */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.white {
+  color: white;
+}
+
+th,
+td {
+  border: 3px solid #89858e;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #8a8a90;
+}
+
+h1 {
+  text-align: center;
+
+  text-shadow: #848386;
+  background-color: #bababf;
+  padding: 40px;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: monospace;
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center:hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: scaleX(-1);
+}
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p,
+li,
+table {
+  color: rgb(24, 21, 21);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #353232;
+}
+
+.nav-link {
+  float: left;
+}
+
+.nav-link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+.nav-link a:hover:not(.active) {
+  background-color: #4c504f;
+}
+
+.active {
+  background-color: #6b7270;
+}
